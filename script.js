@@ -76,12 +76,21 @@ const questions = [
       ]
   },
   {
+    question: "What is the Hidden Subgroup Problem(HSP).",
+    answers: [
+      {text: "It is used for graph theory, where the goal is to find hidden nodes within a network by analyzing the shortest path between nodes.", correct: false},
+      {text: "It is a cryptographic encryption algorithm used to secure communication between two parties by hiding their public keys in a group structure.", correct: false},
+      {text: "It is a machine learning classification problem used to find hidden subgroups in a dataset.", correct: false},
+      {text: "It is a framework used to capture problems such as factorising and graph isomorphism.",  correct: true},
+    ]
+  },
+  {
     question: "",
     answers: [
+      {text: "", correct: false},
       {text: "", correct: true},
       {text: "", correct: false},
-      {text: "", correct: false},
-      {text: "", correct: false},
+      {text: "",  correct: false},
     ]
   },
 ];
