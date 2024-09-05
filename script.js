@@ -67,12 +67,12 @@ const questions = [
     ]
   },
   {
-    question: "What is Shor's algorithm used for.",
+    question: "What is Shor's algorithm used to...",
       answers: [
-        {text: "It is used to find prime factors in an integer.", correct: true},
-        {text: "It is used to find the expansion of an integer.", correct: false},
-        {text: "It is used to deduct the amount of errors in a sequence of coded instructions.", correct: false},
-        {text: "It is used find different integers in an equation.", correct: true},
+        {text: "...find prime factors in an integer.", correct: true},
+        {text: "...find the expansion of an integer.", correct: false},
+        {text: "...deduct the amount of errors in a sequence of coded instructions.", correct: false},
+        {text: "...find different integers in an equation.", correct: false},
       ]
   },
   {
