@@ -67,7 +67,7 @@ const questions = [
     ]
   },
   {
-    question: "What is Shor's algorithm used to...",
+    question: "Shor's algorithm is used to...",
       answers: [
         {text: "...find prime factors in an integer.", correct: true},
         {text: "...find the expansion of an integer.", correct: false},
