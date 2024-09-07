@@ -103,10 +103,10 @@ const questions = [
     ]
   },
 {
-    question: "",
+    question: "What can be used to represent the qubit state.",
     answers: [
-      {text: "", correct: false},
-      {text: "", correct: true},
+      {text: "The binary code.", correct: false},
+      {text: "A 2-dimensional vector", correct: true},
       {text: "", correct: false},
       {text: "",  correct: false},
     ]
