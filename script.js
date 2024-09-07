@@ -40,12 +40,12 @@ window.addEventListener('DOMContentLoaded', function() {
 // Declare variables at the top of the script
 const questions = [
   {
-    question: "What is a quantum computer",
+    question: "What is a quantum computer?",
     answers: [
-      {text: "", correct: false},
-      {text: "", correct: false},
-      {text: "", correct: true},
-      {text: "",  correct: false},
+      {text: "A computer that has the capabilities of quantuming.", correct: false},
+      {text: "A computer that can process quantum physics.", correct: false},
+      {text: "A computer that takes advantage of quantum mechanical phenomena.", correct: true},
+      {text: "A computer that does not use circuits but instead has physicists that carry out calculations at lightning speed.",  correct: false},
     ]
   },
   {
