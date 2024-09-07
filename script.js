@@ -40,6 +40,15 @@ window.addEventListener('DOMContentLoaded', function() {
 // Declare variables at the top of the script
 const questions = [
   {
+    question: "What is a quantum computer",
+    answers: [
+      {text: "", correct: false},
+      {text: "", correct: false},
+      {text: "", correct: true},
+      {text: "",  correct: false},
+    ]
+  },
+  {
     question: "What is the Quantum Turing Machine used for?",
     answers: [
       {text: "It is used to turn a machine quantum.", correct: false},
