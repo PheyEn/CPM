@@ -85,6 +85,15 @@ const questions = [
     ]
   },
   {
+    question: "When did quantum computing become popular?",
+    answers: [
+      {text: "The 2000s", correct: false},
+      {text: "The 1980s", correct: true},
+      {text: "The 1920s", correct: false},
+      {text: "The 1960s",  correct: false},
+    ]
+  },
+{
     question: "",
     answers: [
       {text: "", correct: false},
