@@ -106,9 +106,9 @@ const questions = [
     question: "What can be used to represent the qubit state.",
     answers: [
       {text: "The binary code.", correct: false},
-      {text: "A 2-dimensional vector", correct: true},
-      {text: "", correct: false},
-      {text: "",  correct: false},
+      {text: "A 2-dimensional vector.", correct: true},
+      {text: "A light switch.", correct: false},
+      {text: "A coin flip.",  correct: false},
     ]
   },
 ];
