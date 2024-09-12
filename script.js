@@ -37,6 +37,40 @@ window.addEventListener('DOMContentLoaded', function() {
   addNotificationClickListeners();
 });
 
+let currentSlide = 0;
+
+function showSlide(index) {
+    const sections = document.querySelectorAll('.slider-section');
+
+    sections.forEach((section) => {
+        const slides = section.querySelectorAll('.slider-images img');
+
+        // Reset the active slide in each section
+        slides.forEach((slide) => {
+            slide.classList.remove('active');
+        });
+
+        // Loop back to the first slide if index exceeds number of slides
+        if (index >= slides.length) {
+            currentSlide = 0;
+        } else if (index < 0) {
+            currentSlide = slides.length - 1;
+        } else {
+            currentSlide = index;
+        }
+
+        // Set the new active slide for each section
+        slides[currentSlide].classList.add('active');
+    });
+}
+
+function changeSlide(direction) {
+    showSlide(currentSlide + direction);
+}
+
+// Initial display of the first slide
+showSlide(currentSlide);
+
 // Declare variables at the top of the script
 const questions = [
   {
@@ -45,7 +79,7 @@ const questions = [
       {text: "A computer that has the capabilities of quantuming.", correct: false},
       {text: "A computer that can process quantum physics.", correct: false},
       {text: "A computer that takes advantage of quantum mechanical phenomena.", correct: true},
-      {text: "A computer that does not use circuits but instead has physicists that carry out calculations at lightning speed.",  correct: false},
+      {text: "A computer that does not use circuits but instead has physicists that carry out calculations at light speed.",  correct: false},
     ]
   },
   {
@@ -103,9 +137,9 @@ const questions = [
     ]
   },
 {
-    question: "What can be used to represent the qubit state.",
+    question: "What can be used to represent the qubit state?",
     answers: [
-      {text: "The binary code.", correct: false},
+      {text: "The binary code", correct: false},
       {text: "A 2-dimensional vector.", correct: true},
       {text: "A light switch.", correct: false},
       {text: "A coin flip.",  correct: false},
